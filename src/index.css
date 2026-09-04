@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --page-bg: #0B1220;
+}
+
+/* Black */
+.theme-black {
+  --page-bg: #050505;
+}
+
+/* Deep Teal */
+.theme-teal {
+  --page-bg: #0b1817;
+}
+
+/* Midnight Blue */
+.theme-blue {
+  --page-bg: #0b1320;
+}
+
+/* Deep Burgundy */
+.theme-burgundy {
+  --page-bg: #1a0d13;
+}
+
+/* Graphite Slate */
+.theme-slate {
+  --page-bg: #12161a;
+}
+
+/* Soft Purple */
+.theme-purple {
+  --page-bg: #15111e;
+}
+
+/* Warm Charcoal */
+.theme-charcoal {
+  --page-bg: #141210;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--page-bg);
+  color: white;
+  transition: background-color 0.5s ease;
+}
